@@ -46,7 +46,7 @@ if(cadastrar_curriculo($novo_nome,$id_user)&& $upload){
      $_SESSION['alerta']['tipo'] = 'alert-success';
      $_SESSION['alerta']['mensagem'] = "Currículo Cadastrado com Sucesso";
      //redireciona o usuário
-     header('Location:/admin/curriculo');
+     header('Location:/admin');
      //aborta a execução
      exit;
 }
