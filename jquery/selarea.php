@@ -1,6 +1,8 @@
 <?php
- 
- $conn = new PDO("mysql:host=localhost;dbname=jobfinder","root","");
+ require DB;
+
+//  $conn = new PDO("mysql:host=localhost;dbname=jobfinder","root","");
+$conn = conexao();
 
 $sql= "SELECT id,nome FROM tb_area ORDER BY nome";
 $stmt = $conn->prepare($sql);

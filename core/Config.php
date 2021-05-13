@@ -1,5 +1,5 @@
 <?php 
-define('NOME_APP','Framework MVC em PHP - Site de Notícias');
+define('NOME_APP','JobFinder');
 
 define('CORE', __DIR__);
 
